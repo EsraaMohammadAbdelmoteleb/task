@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- IE compatibility meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- first mobile meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <title>Document</title>
+<style>
+  input,button,h2{background-color: #746868f2;}
+  input{border: none;outline: none;}
+  </style>
+</head>
+<body style="background-color: #3e9b95;color:#fff; padding: 10px;font-size: 18px;">
+<div id="main">
+  <p> this is paragraph</p>
+  <h3> this is heading</h3>
+</div>
+  
+
+
+<div class="task1">
+<h2 style="text-align: center;" > First Task In Javascript</h2>
+<h3 >1-Show data about you, your name, your age, date of birth, nationality and a description of you</h3>
+<div id="about"></div>
+-------------------------------------------
+<h3>2- Add, subtract, and multiply numbers, and appear on the browser</h3>
+<div id="add"> </div>
+<div id="subtract"> </div>
+<div id="multiply"> </div>
+<div id="divide"> </div>
+-------------------------------------------
+<h3>3- The arithmetic average of a number of numbers of not less than five</h3>
+<div id="averageofnumber"> </div>
+</div>
+-------------------------------------------
+<h3> 3-make a Function when I click on it reveals details about you</h3>
+<div id="show"> </div>
+<button   onclick="aboutme()"> about</button>
+<hr>
+
+<h2 style="text-align: center;"> second Task In Javascript</h2>
+<h3>1-make a function check on the input. When an alert alert appears, the user name must be entered
+  If you entered less than two letters or more than 15, a message appears that you must enter a name not less than two letters and no more than 15
+  I do not see that the login process was successful</h3>
+
+<input id="check" type="text">
+  <button onclick="checkinput()"> click</button>
+  
+  <h3>2-the difference between
+    Slice - sbstr -
+    Substring</h3> 
+    <div style="border:3px solid #fff;
+   text-align: center;padding: 30px;">
+      <h3>Guess number between 0 and 100</h3>
+
+      <input  placeholder="Guess Number" id="num">
+  
+      <button onclick="myfunc()">Guess</button>
+
+      <p  id="message1"> </p>
+  
+    </div>
+
+    <div id="myparent-element">
+    </div>
+    <button onclick="processofadd()">add element</button>
+    <br>
+    <br>
+    <button onclick="processofremove()">remove element</button>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"> </script> 
+
+  <script src="js/main.js"></script>
+</body>
+</html>
